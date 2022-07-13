@@ -1,6 +1,6 @@
 const button = document.getElementById('btn');
 const itemName = document.getElementById('item-name');
 
-button.addEventListener('click', (e) => {
+button.addEventListener('click', (_e) => {
     itemName.innerText += '🔥';
 })
